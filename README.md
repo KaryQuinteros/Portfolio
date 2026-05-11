@@ -1,36 +1,75 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🌐 KaryDev — Portfolio Personal
 
-## Getting Started
+> Migración del portfolio personal de HTML/CSS vanilla a **Next.js 15 + Tailwind CSS + Framer Motion**.
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+## 📋 Descripción
+
+Portfolio profesional de **Karina Quinteros**, Frontend Developer con conocimientos en Backend. Diseño glassmorphism con modo claro/oscuro, animaciones fluidas y totalmente responsive.
+
+La versión anterior (`v1-vanilla-premium`) fue construida con HTML, CSS y JavaScript puro. Esta versión mantiene el mismo diseño visual pero con una arquitectura moderna y escalable.
+
+---
+
+## 🛠️ Stack Tecnológico
+
+| Tecnología | Uso |
+|---|---|
+| **Next.js 15** | Framework React con App Router |
+| **TypeScript** | Tipado estático |
+| **Tailwind CSS v4** | Utilidades CSS |
+| **Framer Motion** | Animaciones y transiciones |
+| **Font Awesome** | Íconos |
+| **Google Fonts** | Tipografías: Outfit, Playfair Display, Great Vibes |
+
+---
+
+
+---
+
+## ✨ Funcionalidades
+
+- 🌙 Modo claro / oscuro con persistencia en `localStorage`
+- 🎨 Diseño glassmorphism con variables CSS centralizadas
+- 💫 Partículas animadas en el fondo
+- 🎭 Animaciones de entrada con Framer Motion (`useInView`)
+- 📱 Totalmente responsive (mobile, tablet, desktop)
+- 🖼️ Modales de detalle por proyecto
+- 💬 Formulario de contacto directo por WhatsApp
+- ⌨️ Cierre de modales con tecla `Escape`
+
+---
+
+## 🎨 Sistema de Diseño
+
+Todos los colores están definidos como variables CSS en `globals.css`, sin ningún valor hardcodeado en los componentes:
+
+```css
+--color-mint: #4ecdc4
+--color-salmon: #ff6b6b
+--color-salmon-soft: #ff7f7f
+--accent-gradient: linear-gradient(135deg, #667eea, #764ba2)
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+El modo claro y oscuro se manejan sobreescribiendo las variables en la clase `.light-mode`.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 👤 Autora
 
-## Learn More
+**Karina Quinteros** — Frontend Developer
 
-To learn more about Next.js, take a look at the following resources:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 📄 Versiones
 
-## Deploy on Vercel
+| Versión | Branch | Descripción |
+|---|---|---|
+| v1 | `v1-vanilla-premium` | HTML + CSS + JS vanilla |
+| v2 | `main` | Next.js + Tailwind + Framer Motion |
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+*© 2026 KaryDev. Todos los derechos reservados.*
