@@ -58,7 +58,9 @@ El modo claro y oscuro se manejan sobreescribiendo las variables en la clase `.l
 
 ## 👤 Autora
 
-**Karina Quinteros** — Frontend Developer
+Karina Quinteros — Frontend Developer
+
+[![Portfolio](https://img.shields.io/badge/Portfolio-Online-blue?style=for-the-badge)](https://karydev.vercel.app)
 
 
 ---
