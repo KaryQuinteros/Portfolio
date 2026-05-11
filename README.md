@@ -67,10 +67,10 @@ Karina Quinteros — Frontend Developer
 
 ## 📄 Versiones
 
-| Versión | Branch | Descripción |
-|---|---|---|
-| v1 | `v1-vanilla-premium` | HTML + CSS + JS vanilla |
-| v2 | `main` | Next.js + Tailwind + Framer Motion |
+| Versión | Branch | Descripción | Demo |
+|---|---|---|---|
+| v1 | `v1-vanilla-premium` | HTML + CSS + JS vanilla | [Ver sitio](https://karyquinteros.github.io/portfolio_karina/) |
+| v2 | `main` | Next.js + Tailwind + Framer Motion | [Ver sitio](https://karydev.vercel.app) |
 
 ---
 
